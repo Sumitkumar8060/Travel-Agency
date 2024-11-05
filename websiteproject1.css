@@ -1,0 +1,479 @@
+body {
+    
+    background-color: rgba(18, 11, 11, 0.096);
+}
+.imagee{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url("home-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.imagee .hh h1{
+    font-size: 4rem;
+    max-width: 50rem;
+    color: var(--white-color);
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-left: 17%;
+    margin-bottom: 1rem;
+}
+.imagee .hh p{
+    color: #eee;
+    font-weight: 300;
+    max-width: 40rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 22%;
+}
+header {
+    background: linear-gradient(rgb(255,255,255,.2),rgb(255,255,255,.2));
+    padding: 2px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: larger;
+    
+}
+.navbar a {
+    color: black;
+    font-size: large;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+.navbar a:hover {
+    background-color: white;
+    border-radius: 6px;
+
+}
+
+.buttonn a{
+    color: black;
+    font-size: 110%;
+    transition: .1s;
+    background: darkslategrey;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4rem;
+}
+.buttonn a:first-child{
+    background: transparent;
+}
+.buttonn a:hover {
+    color:white;
+    border: 1px solid white;
+}
+
+.sear{
+    width: 50%;
+    margin: 3em;
+    padding: 2px;
+    display: flex;
+    height: 2.5rem;
+    margin-left: 25.8%;
+    margin-bottom: 10%;
+}
+.sear input{
+    border-radius: 4rem;
+    border: 1px solid white;
+    width: 90%;
+}
+.sear button{
+    border-radius: 2.5rem;
+    margin-left: -4.7rem;
+    margin-top: 0.25%;
+    height: 91%;
+    width: 12%;
+    font-size: 90%;
+    background-color: darkslategrey;
+    border: 1px solid darkslategrey;
+    transition: 1ms;
+}
+.sear button:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+#nation{
+    text-align: center;
+    padding: 2px;
+    width: 50%;
+    margin-left: 23.5%;
+    margin-top: 5%;
+}
+#first{
+    display: flex;
+    justify-content: space-between;
+}
+#first h5{
+    margin-top: -15px;
+}
+#first h6 {
+    margin-top: -75px;
+    margin-left: 75%;
+}
+#first button{
+    margin-top: -40%;
+    margin-left: 75%;
+    height: 10%;
+    color: #ff5733;
+    border: 1px solid red;
+    width: 20%;
+    font-size: 9.6px;
+    transition: 1ms;
+}
+#first button:hover{
+    background: rgb(236, 236, 121);
+}
+#second{
+    display: flex;
+    justify-content: center;
+}
+#second h5{
+    margin-top: -15px;
+}
+#second h6 {
+    margin-top: -75px;
+    margin-left: 75%;
+}
+#second button{
+    margin-top: -40%;
+    margin-left: 75%;
+    height: 10%;
+    color: #ff5733;
+    border: 1px solid red;
+    width: 20%;
+    font-size: 9.6px;
+    transition: 1ms;
+}
+#second button:hover{
+    background: rgb(236, 236, 121);
+}
+#first div{
+    margin-bottom: 2em;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+#first div:hover{
+    background: cornflowerblue;
+
+}
+#second div{
+    margin-bottom: 2em;
+    margin: 0.3em;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+#second div:hover{
+    background: cornflowerblue;
+
+}
+#first img{
+    height: 70%;
+    width: 100%;
+}
+#second img{
+    height: 70%;
+    width: 100%;
+}
+
+#internation{
+    text-align: center;
+    padding: 2px;
+    width: 50%;
+    margin-left: 23.5%;
+}
+#first1{
+    display: flex;
+    justify-content: center;
+}
+#first1 h5{
+    margin-top: -15px;
+}
+#first1 h6 {
+    margin-top: -75px;
+    margin-left: 75%;
+}
+#first1 button{
+    margin-top: -40%;
+    margin-left: 75%;
+    height: 10%;
+    color: #ff5733;
+    border: 1px solid red;
+    width: 20%;
+    font-size: 9.6px;
+    transition: 1ms;
+}
+#first1 button:hover{
+    background: rgb(236, 236, 121);
+}
+#second1{
+    display: flex;
+    justify-content: center;
+}
+#second1 h5{
+    margin-top: -15px;
+}
+#second1 h6 {
+    margin-top: -75px;
+    margin-left: 75%;
+}
+#second1 button{
+    margin-top: -40%;
+    margin-left: 75%;
+    height: 10%;
+    color: #ff5733;
+    border: 1px solid red;
+    width: 20%;
+    font-size: 9.6px;
+    transition: 1ms;
+}
+#second1 button:hover{
+    background: rgb(236, 236, 121);
+}
+#first1 div{
+    margin-bottom: 2em;
+    margin: 0.3em;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+#first1 div:hover{
+    background: cornflowerblue;
+
+}
+#second1 div{
+    margin-bottom: 2em;
+    margin: 0.3em;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+#second1 div:hover{
+    background: cornflowerblue;
+
+}
+#first1 img{
+    height: 70%;
+    width: 100%;
+}
+#second1 img{
+    height: 70%;
+    width: 100%;
+}
+
+#honeymo{
+    text-align: center;
+    padding: 2px;
+    width: 50%;
+    margin-left: 23.5%;
+}
+#first2{
+    display: flex;
+    justify-content: center;
+}
+#first2 h5{
+    margin-top: -15px;
+}
+#first2 h6 {
+    margin-top: -75px;
+    margin-left: 75%;
+}
+#first2 button{
+    margin-top: -40%;
+    margin-left: 75%;
+    height: 10%;
+    color: #ff5733;
+    border: 1px solid red;
+    width: 20%;
+    font-size: 9.6px;
+    transition: 1ms;
+}
+#first2 button:hover{
+    background: rgb(236, 236, 121);
+}
+#second2{
+    display: flex;
+    justify-content: center;
+}
+#second2 h5{
+    margin-top: -15px;
+}
+#second2 h6 {
+    margin-top: -75px;
+    margin-left: 75%;
+}
+#second2 button{
+    margin-top: -40%;
+    margin-left: 75%;
+    height: 10%;
+    color: #ff5733;
+    border: 1px solid red;
+    width: 20%;
+    font-size: 9.6px;
+    transition: 1ms;
+}
+#second2 button:hover{
+    background: rgb(236, 236, 121);
+}
+#first2 div{
+    margin-bottom: 2em;
+    margin: 0.3em;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+#first2 div:hover{
+    background: cornflowerblue;
+}
+#second2 div{
+    margin-bottom: 2em;
+    margin: 0.3em;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+#second2 div:hover{
+    background: cornflowerblue;
+}
+#first2 img{
+    height: 70%;
+    width: 100%;
+}
+#second2 img{
+    height: 70%;
+    width: 100%;
+}
+
+#fami{
+    text-align: center;
+    padding: 2px;
+    width: 50%;
+    margin-left: 23.5%;
+}
+#first3{
+    display: flex;
+    justify-content: center;
+}
+#first3 h5{
+    margin-top: -15px;
+}
+#first3 h6 {
+    margin-top: -75px;
+    margin-left: 75%;
+}
+#first3 button{
+    margin-top: -40%;
+    margin-left: 75%;
+    color: #ff5733;
+    border: 1px solid red;
+    height: 10%;
+    width: 20%;
+    font-size: 9.6px;
+    transition: 1ms;
+}
+#first3 button:hover{
+    background: rgb(236, 236, 121);
+}
+#second3{
+    display: flex;
+    justify-content: center;
+}
+#second3 h5{
+    margin-top: -15px;
+}
+#second3 h6 {
+    margin-top: -75px;
+    margin-left: 75%;
+}
+#second3 button{
+    margin-top: -40%;
+    margin-left: 75%;
+    height: 10%;
+    color: #ff5733;
+    border: 1px solid red;
+    width: 20%;
+    font-size: 9.6px;
+    transition: 1ms;
+}
+#second3 button:hover{
+    background: rgb(236, 236, 121);
+}
+#first3 div{
+    margin-bottom: 2em;
+    margin: 0.3em;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+#first3 div:hover{
+    background: cornflowerblue;
+}
+#second3 div{
+    margin-bottom: 2em;
+    margin: 0.3em;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+#second3 div:hover{
+    background: cornflowerblue;
+
+}
+#first3 img{
+    height: 70%;
+    width: 100%;
+}
+#second3 img{
+    height: 70%;
+    width: 100%;
+}
+
+.seclast{
+    text-align: center;
+    margin: 2em;
+    margin-top: 8%;
+}
+.last{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: lightslategrey;
+    
+}
+.last div{
+    margin: 1.5em;
+    border: 0px solid black;
+    width: 200px;
+    height: 250px;
+}
+.last img{
+    height: 35%;
+    width: 45%;
+    border-radius: 50%;
+    
+}
